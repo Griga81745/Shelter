@@ -1,0 +1,357 @@
+:root {
+    --color-underline: #F1CDB3;
+}
+:root{
+    --color-primary: #545454;
+}
+
+p{
+    color: var(--color-primary);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10x;
+    background: linear-gradient(180deg, rgb(241, 205, 179), rgb(184, 115, 66));
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: var(--color-underline);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    transition-duration: 0.5s;
+}
+
+
+.text-bold{
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+
+
+.start_page-container{
+    width: 1281px;
+    height: 847px;
+    margin: 0 auto;
+}
+
+
+.header-wallpaper{
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    position: static;
+    top: 0;
+    z-index: 2;
+}
+
+.header_container-navBar{
+    height: 120px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start_page-container-logo-container{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.start_page-logo{
+    font-family: Georgia;
+    font-size: 32px;
+    color: var(--color-primary);
+}
+
+.start_page-logo-description{
+    font-family: Arial;
+    font-size: 13px;
+    color: var(--color-primary);
+    margin-top: 10px;
+}
+
+
+
+.start_page-container-nav-buttons{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.start_page-container-nav-buttons>a{
+    color: var(--color-primary);
+}
+
+.start_page-container-nav-buttons>a{
+    color: var(--color-primary);
+    font-family: Arial;
+}
+
+.start_page-container-nav-buttons>a:hover{
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-decoration-color: var(--color-underline);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+
+.start_page-container-nav-buttons>a:nth-child(1){
+    color: var(--color-primary);
+    text-decoration-color: var(--color-underline);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+
+
+
+
+.page2__wrapper_container{
+    width: 100%;
+    height: 1342px;
+    background-color: #F6F6F6;
+}
+
+.page2__wrapper_container>p:nth-child(1){
+    font-family: Georgia;
+    font-size: 35px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.page2__pets_container{
+    width: 1200px;
+    height: 930px;
+    margin: 0 auto;
+    margin-top: 45px;
+    overflow: hidden;
+    display: flex;
+}
+
+.page2__pets_container_wrapper{
+    width: 1200px;
+    height: 930px;
+    transition-duration: 0.5s;
+    transform: translate(0, 0);
+}
+
+.page2__pets_container_wrapper2{
+    min-width: 1200px;
+    height: 930px;
+    transition-duration: 0.5s;
+}
+
+.container_wrapper2-active{
+    transform: translate(-1202px, 0);
+    transition-duration: 0.5s;
+}
+
+.arrow_right-active{
+    transition-duration: 0.5s;
+    transform: translate(-1222px, 0);
+}
+
+
+
+.slide_pets-container{
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+    gap: 40px;
+}
+
+
+.slide_pets-container:hover>div>button{
+    transition-duration: 0.25s;
+    background-color: #FDDCC4;
+}
+
+.slide_pets-container>p{
+    color: #545454;
+    font-family: Georgia;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.slide_pets-container>div>button{
+    width: 187px;
+    height: 52px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid #F1CDB3;
+    font-family: Georgia;
+    font-size: 17px;
+    cursor: pointer;
+}
+.slide_pets-container>div>button:hover{
+    background-color: #FDDCC4;
+}
+
+.slide_pets-container-up{
+    width: 1200px;
+    height: 435px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide_pets-container-down{
+    width: 1200px;
+    height: 435px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.slide_pets-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+.pag2__pets_nav_button{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.pag2__pets_nav_button>button{
+    width: 52px;
+    height: 52px;
+    background-color: transparent;
+    border: 2px solid var(--color-underline);
+    border-radius: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.pag2__pets_nav_button>button:hover{
+    background-color: var(--color-underline);
+}
+
+.disable-buttons-left>button:nth-child(-n+2){
+    color: #CDCDCD;
+    border-color: #CDCDCD;
+}
+
+.disable-buttons-left>button:hover:nth-child(-n+2){
+    background-color: transparent;
+    cursor: default;
+}
+
+.disable-buttons-right>button:nth-child(1n+4){
+    color: #CDCDCD;
+    border-color: #CDCDCD;
+}
+
+.disable-buttons-right>button:hover:nth-child(1n+4){
+    background-color: transparent;
+    cursor: default;
+}
+
+
+footer{
+    background-image: url("../img/footer/footer-gradient-background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.footer_contactInfo{
+    width: 278px;
+    height: 234px;
+    margin-left: 40px;
+}
+
+.footer_contactInfo>p:nth-child(1){
+    font-family: Georgia;
+    font-size: 35px;
+    color: white;
+}
+
+.footer_contactInfo>div{
+    display: flex;
+    margin-top: 41px;
+}
+
+.footer_contactInfo>div>a{
+    font-family: Georgia;
+    font-size: 20px;
+    color: var(--color-underline);
+}
+
+.footer_contactInfo>div>img{
+    margin-right: 20px;
+}
+
+.footer_contactInfo>div>p{
+    font-family: Georgia;
+    font-size: 20px;
+    color: var(--color-underline);
+    margin-left: 20px;
+}
+
+.shelter-location{
+    width: 302px;
+    height: 234px;
+    margin-left: 160px;
+}
+
+.shelter-location>p{
+    font-family: Georgia;
+    font-size: 35px;
+    color: white;
+}
+
+.shelter-location>div{
+    display: flex;
+    margin-top: 34px;
+}
+
+.shelter-location>div>img{
+    height: 32px;
+    width: 22px;
+}
+
+.shelter-location>div>a{
+    font-family: Georgia;
+    font-size: 19px;
+    color: var(--color-underline);
+    margin-left: 20px;
+}
+
+
+.footer-dog{
+    margin-top: 39px;
+    margin-left: 40%;
+}
